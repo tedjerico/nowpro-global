@@ -1,14 +1,14 @@
 // Inicializar EmailJS
 (function () {
-  emailjs.init("YOUR_PUBLIC_KEY"); // Reemplaza con tu clave pública
+  emailjs.init(geMI38P0upKLiXfjL); // Reemplaza con tu clave pública
 })();
 
 // Manejar envío del formulario
 document.getElementById("contact-form").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const serviceID = "service_abc123"; // Tu ID de servicio
-  const templateID = "template_xyz789"; // Tu ID de plantilla
+  const serviceID = service_a5nzmdk; // Tu ID de servicio
+  const templateID = template_u807nfa; // Tu ID de plantilla
 
   emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
