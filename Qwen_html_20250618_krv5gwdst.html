@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Servicios - NowPro Global</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar bg-blue-700 text-white">
+    <div class="container flex justify-between items-center py-4">
+      <a href="#" class="logo font-bold text-xl"> 
+        <img src="https://via.placeholder.com/200x200?text=NowPro+Global" alt="NowPro Global" class="logo-image">
+      </a>
+      <nav class="menu hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-blue-200 transition">Inicio</a>
+        <a href="nosotros.html" class="hover:text-blue-200 transition">Nosotros</a>
+        <a href="#" class="hover:text-blue-200 transition">Servicios</a> 
+        <a href="informes.html" class="hover:text-blue-200 transition">Informes al Día</a>
+        <a href="proyectos.html" class="hover:text-blue-200 transition">Proyectos</a>
+      </nav>
+      <button id="hamburger" class="md:hidden text-white focus:outline-none">☰</button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-blue-800 px-4 py-2">
+      <a href="index.html" class="block py-2 hover:text-blue-200">Inicio</a>
+      <a href="nosotros.html" class="block py-2 hover:text-blue-200">Nosotros</a>
+      <a href="#" class="block py-2 hover:text-blue-200">Servicios</a>
+      <a href="informes.html" class="block py-2 hover:text-blue-200">Informes al Día</a>
+      <a href="proyectos.html" class="block py-2 hover:text-blue-200">Proyectos</a>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Asesoría en Documentación</h3>
+          <p>Soporte en documentación técnica, procedimientos y manuales corporativos.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Mapeo de Procesos</h3>
+          <p>Diseño y optimización de flujos de trabajo y procesos internos.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Desarrollo de Software</h3>
+          <p>Aplicaciones a medida para automatizar operaciones y mejorar la productividad.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Marketing Digital</h3>
+          <p>Estrategias de marketing online para posicionar tu marca y generar leads cualificados.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Auditorías Administrativas</h3>
+          <p>Evaluación detallada de procesos, recursos humanos y control financiero.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Mantenimiento Industrial</h3>
+          <p>Mantenimiento predictivo y preventivo de maquinaria y equipos industriales.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/YOUR_PHONE_NUMBER"  target="_blank" class="whatsapp-button fixed bottom-6 right-6 z-50">
+    <img src="https://cdn-icons-png.flaticon.com/512/736/736302.png"  alt="WhatsApp" class="w-16 h-16">
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2025 NowPro Global. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="../script.js"></script>
+</body>
+</html>
