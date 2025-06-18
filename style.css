@@ -167,4 +167,13 @@ button:hover {
   .md\:flex {
     display: flex;
   }
+  .md\:w-1/2 {
+    width: 50%;
+  }
+  .md\:pl-12 {
+    padding-left: 3rem;
+  }
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
 }
